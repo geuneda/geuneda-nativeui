@@ -3,7 +3,7 @@ using UnityEngine;
 
 // ReSharper disable once CheckNamespace
 
-namespace GameLovers.NativeUi
+namespace Geuneda.NativeUi
 {
 	public enum AlertButtonStyle
 	{

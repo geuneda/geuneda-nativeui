@@ -1,8 +1,10 @@
 {
-  "name": "com.gamelovers.nativeui",
+  "name": "com.geuneda.nativeui",
   "displayName": "Native UI",
+  "author": "geuneda",
   "version": "0.2.5",
   "unity": "2020.3",
-  "description": "This package provides the OS functionality to show the native UI alerts, Game Review PopUp and message Toasts",
+  "license": "MIT",
+  "description": "네이티브 UI 알림, 게임 리뷰 팝업, 메시지 토스트를 표시하는 OS 기능을 제공하는 패키지입니다.",
   "type": "library"
 }
