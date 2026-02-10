@@ -20,17 +20,17 @@ namespace Geuneda.NativeUi
 	}
 	
 	/// <summary>
-	/// This service provides the functionality to call native UI screens
+	/// 네이티브 UI 화면을 호출하는 기능을 제공하는 서비스
 	/// </summary>
 	public static class NativeUiService
 	{
 		/// <summary>
-		/// Shows an alert native OS message popup with the given <paramref name="title"/>, <paramref name="message"/>
-		/// and the <paramref name="buttons"/> ordered from left to right.
-		/// If on iOS device, it can be set the pop up to be visible as an alert sheet depending on the given <paramref name="isAlertSheet"/>
+		/// 주어진 <paramref name="title"/>, <paramref name="message"/>와
+		/// 왼쪽에서 오른쪽 순서로 정렬된 <paramref name="buttons"/>를 사용하여 네이티브 OS 알림 팝업을 표시합니다.
+		/// iOS 기기에서는 <paramref name="isAlertSheet"/> 값에 따라 알림 시트 형태로 표시할 수 있습니다.
 		/// </summary>
 		/// <exception cref="SystemException">
-		/// Thrown if the current platform is not iOS nor Android
+		/// 현재 플랫폼이 iOS 또는 Android가 아닌 경우 발생합니다.
 		/// </exception>
 		public static void ShowAlertPopUp(bool isAlertSheet, string title, string message, params AlertButton[] buttons)
 		{
@@ -72,12 +72,11 @@ namespace Geuneda.NativeUi
 		}
 
 		/// <summary>
-		/// Shows a toast native OS message popup with the given <paramref name="message"/>.
-		/// This toast will be available on the screen for 3.5sec or 2sec depending
-		/// on the given <paramref name="isLongDuration"/> information
+		/// 주어진 <paramref name="message"/>를 사용하여 네이티브 OS 토스트 메시지 팝업을 표시합니다.
+		/// 이 토스트는 <paramref name="isLongDuration"/> 값에 따라 3.5초 또는 2초 동안 화면에 표시됩니다.
 		/// </summary>
 		/// <exception cref="SystemException">
-		/// Thrown if the current platform is not iOS nor Android
+		/// 현재 플랫폼이 iOS 또는 Android가 아닌 경우 발생합니다.
 		/// </exception>
 		public static void ShowToastMessage(string message, bool isLongDuration)
 		{
