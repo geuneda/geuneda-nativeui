@@ -1,59 +1,59 @@
-# Changelog
-All notable changes to this package will be documented in this file.
+# 변경 이력
+이 패키지에 대한 모든 주요 변경 사항이 이 파일에 기록됩니다.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+이 형식은 [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)를 기반으로 하며,
+이 프로젝트는 [Semantic Versioning](http://semver.org/spec/v2.0.0.html)을 따릅니다.
 
 ## [0.2.5] - 2021-01-15
 
-**Fixed**:
-- Fixed crash when showing Alert buttons on the editor
+**수정**:
+- 에디터에서 Alert 버튼 표시 시 크래시 수정
 
 ## [0.2.4] - 2020-09-24
 
-**Fixed**:
-- Fixed compiler warning for not using native code
+**수정**:
+- 네이티브 코드 미사용에 대한 컴파일러 경고 수정
 
 ## [0.2.3] - 2020-08-12
 
-**Fixed**:
-- Fixed build errors
+**수정**:
+- 빌드 오류 수정
 
 ## [0.2.2] - 2020-08-12
 
-**Fixed**:
-- Fixed UI working on the editor
+**수정**:
+- 에디터에서 UI 작동 오류 수정
 
 ## [0.2.1] - 2020-08-03
 
-**Fixed**:
-- Fixed build error
+**수정**:
+- 빌드 오류 수정
 
 ## [0.2.0] - 2020-08-02
 
-**Changed**:
-- Removed the show rate the game pop up. From now one use the Unity direct message or Google Play package
+**변경**:
+- 게임 평가 팝업 표시 기능 제거. 이후 Unity 직접 메시지 또는 Google Play 패키지를 사용하세요
 
 ## [0.1.4] - 2020-08-02
 
-**Fixed**:
-- Package now working properly on Android
+**수정**:
+- Android에서 패키지가 정상적으로 작동하도록 수정
 
 ## [0.1.3] - 2020-08-02
 
-**Fixed**:
-- Package now working properly on Android
+**수정**:
+- Android에서 패키지가 정상적으로 작동하도록 수정
 
 ## [0.1.2] - 2020-08-02
 
-**Fixed**:
-- Package now working properly on Android
+**수정**:
+- Android에서 패키지가 정상적으로 작동하도록 수정
 
 ## [0.1.1] - 2020-07-31
 
-**Fixed**:
-- Package now working properly on iOS
+**수정**:
+- iOS에서 패키지가 정상적으로 작동하도록 수정
 
 ## [0.1.0] - 2020-07-30
 
-- Initial submission for package distribution
+- 패키지 배포를 위한 최초 제출

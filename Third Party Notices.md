@@ -1,16 +1,15 @@
-This package contains third-party software components governed by the license(s) indicated below:
+이 패키지에는 아래에 명시된 라이선스에 따라 관리되는 서드파티 소프트웨어 구성 요소가 포함되어 있습니다:
 ---------
 
-Component Name: [provide component name]
+구성 요소 이름: [구성 요소 이름 입력]
 
-License Type: [Provide license type, i.e. "MIT", "Apache 2.0"]
+라이선스 유형: [라이선스 유형 입력, 예: "MIT", "Apache 2.0"]
 
-[Provide License Details]
+[라이선스 세부 정보 입력]
 
 ---------
-Component Name: [provide component name]
+구성 요소 이름: [구성 요소 이름 입력]
 
-License Type: [Provide license type, i.e. "MIT", "Apache 2.0"]
+라이선스 유형: [라이선스 유형 입력, 예: "MIT", "Apache 2.0"]
 
-[Provide License Details]
-
+[라이선스 세부 정보 입력]
